@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="curry.css"/>
+
+</head>
+
+<body>
+    <div id="sectionHome" class="main-page pb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.currypointindiancuisine.com/wp-content/uploads/2022/06/Curry-Point-Indian-Cuisine-Logo.png" class="image" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-items">
+                    <li class="nav-item">
+                        <a class="nav-link nav-item" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item" href="#">Dlivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item" href="#">Offers</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 curry-point-headet-section d-flex flex-column justify-content-start  pt-5 text-left">
+                    <h1 class="curry-point-heading">The</h1>
+                    <h1 class="curry-point-heading">CURRY POINT</h1>
+                    <p class="curry-point-paragraph">All types of Curries are available here</p>
+                </div>
+                <div class="col-12 col-md-12 pt-4 d-flex flex-row justify-content-center item-secton">
+                    <div class="pr-3 m-2 text-center item-types w-100">
+                        <img src="https://t3.ftcdn.net/jpg/03/33/87/26/360_F_333872669_BUl0nxYaDL2b7Cw0R7CpYjy01amQeyng.jpg" class="item-secton-image" />
+                        <div class="descrption d-flex flex-row justify-content-center text-right">
+                            <h1 class="item-heading mt-3"> Veg</h1>
+                            <button class="viewmore mt-3 ml-5" onclick="display('sectionVegeCurry')">View More</button>
+                        </div>
+                    </div>
+                    <div class=" m-2 text-center item-types">
+                        <img src="https://img.jamieoliver.com/home/wp-content/uploads/2020/05/MattRussell_Chicken_Balti_26.jpg" class="item-secton-image" />
+                        <div class="descrption ml-5 d-flex flex-row justify-content-center">
+                            <h1 class="item-heading mt-3">Non Veg</h1>
+                            <button class="viewmore mt-3 ml-5" onclick="display('sectionNonVegeCurry')">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionVegeCurry" class="container-fluid">
+        <div class=" d-flex flex-column vege-curry p-5">
+            <div class=" p-5 text-center">
+                <h1 class="vege-heading">Rayala Seema Specials</h1>
+            </div>
+            <div class="row">
+                <div id="carouselExampleControls" class="col-12 carousel slide d-flex flex-column justify-content-start" data-ride="carousel">
+                    <div class="carousel-inner carousel-container">
+                        <div class="carousel-item carousel-image active">
+                            <img src="https://t4.ftcdn.net/jpg/01/97/24/49/240_F_197244967_IlIbOJjaY9HFT2oESDHlnXAnw8NN4gXC.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t4.ftcdn.net/jpg/05/55/32/45/240_F_555324519_kTCHwzvWCCex1kA89g2wCqS8ddHzVo0F.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t3.ftcdn.net/jpg/02/43/24/24/240_F_243242414_V3IXGGQE1hUYm5HbWDbI0gxS2fma90TV.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t3.ftcdn.net/jpg/00/58/76/24/240_F_58762488_4rkAYpgzyi9MaP7dQApX4XIAR5qng3qa.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t3.ftcdn.net/jpg/02/49/13/48/240_F_249134853_gnltvtI0z5XBdedR80fPBzcf31JeybaU.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://geekrobocook.com/wp-content/uploads/2021/04/Brinjal-Green-Masala.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t3.ftcdn.net/jpg/01/65/28/20/240_F_165282010_dEroU5g69F6jElNq3NuNGzAn6gPJifAB.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid vege-curry">
+            <div class="row">
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://apollosugar.com/wp-content/uploads/2018/09/05.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Bringel Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t3.ftcdn.net/jpg/01/65/28/20/240_F_165282010_dEroU5g69F6jElNq3NuNGzAn6gPJifAB.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3"> Lady Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t3.ftcdn.net/jpg/02/49/13/48/240_F_249134853_gnltvtI0z5XBdedR80fPBzcf31JeybaU.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Dhal</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t3.ftcdn.net/jpg/02/88/93/14/240_F_288931422_uH6iMgdzBkgaofek618dux0RcOVwTQvD.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Kaju Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t4.ftcdn.net/jpg/01/97/24/49/240_F_197244967_IlIbOJjaY9HFT2oESDHlnXAnw8NN4gXC.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Potato Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t4.ftcdn.net/jpg/05/55/32/45/240_F_555324519_kTCHwzvWCCex1kA89g2wCqS8ddHzVo0F.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Sambar</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t3.ftcdn.net/jpg/00/58/76/24/240_F_58762488_4rkAYpgzyi9MaP7dQApX4XIAR5qng3qa.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Beens Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://tastedrecipes.com/wp-content/uploads/2021/11/paneer-butter-masala-3.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Panneer </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://assets.bonappetit.com/photos/5f9aeca89108637794013cab/8:5/w_4864,h_3040,c_limit/HLY_Tomato_Curry-1120-Family-Meal6208.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Tomoto </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://assets.bonappetit.com/photos/5f9aeca89108637794013cab/8:5/w_4864,h_3040,c_limit/HLY_Tomato_Curry-1120-Family-Meal6208.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Tomoto </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://assets.bonappetit.com/photos/5f9aeca89108637794013cab/8:5/w_4864,h_3040,c_limit/HLY_Tomato_Curry-1120-Family-Meal6208.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Tomoto </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://assets.bonappetit.com/photos/5f9aeca89108637794013cab/8:5/w_4864,h_3040,c_limit/HLY_Tomato_Curry-1120-Family-Meal6208.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Tomoto </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionNonVegeCurry" class="container-fluid">
+        <div class=" d-flex flex-column vege-curry p-5">
+
+            <div class=" p-5 text-center">
+                <h1 class="vege-heading">Rayala Seema Specials</h1>
+            </div>
+            <div class="row">
+                <div id="carouselExampleControls" class="col-12 carousel-container carousel slide" data-ride="carousel">
+                    <div class="carousel-inner ">
+                        <div class="carousel-item carousel-image active">
+                            <img src="https://t4.ftcdn.net/jpg/01/97/24/49/240_F_197244967_IlIbOJjaY9HFT2oESDHlnXAnw8NN4gXC.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t4.ftcdn.net/jpg/05/55/32/45/240_F_555324519_kTCHwzvWCCex1kA89g2wCqS8ddHzVo0F.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t3.ftcdn.net/jpg/02/43/24/24/240_F_243242414_V3IXGGQE1hUYm5HbWDbI0gxS2fma90TV.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t3.ftcdn.net/jpg/00/58/76/24/240_F_58762488_4rkAYpgzyi9MaP7dQApX4XIAR5qng3qa.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t3.ftcdn.net/jpg/02/49/13/48/240_F_249134853_gnltvtI0z5XBdedR80fPBzcf31JeybaU.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://geekrobocook.com/wp-content/uploads/2021/04/Brinjal-Green-Masala.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item carousel-image">
+                            <img src="https://t3.ftcdn.net/jpg/01/65/28/20/240_F_165282010_dEroU5g69F6jElNq3NuNGzAn6gPJifAB.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid vege-curry">
+            <div class="row">
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://apollosugar.com/wp-content/uploads/2018/09/05.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Bringel Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t3.ftcdn.net/jpg/01/65/28/20/240_F_165282010_dEroU5g69F6jElNq3NuNGzAn6gPJifAB.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3"> Lady Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t3.ftcdn.net/jpg/02/49/13/48/240_F_249134853_gnltvtI0z5XBdedR80fPBzcf31JeybaU.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Dhal</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t3.ftcdn.net/jpg/02/88/93/14/240_F_288931422_uH6iMgdzBkgaofek618dux0RcOVwTQvD.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Kaju Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t4.ftcdn.net/jpg/01/97/24/49/240_F_197244967_IlIbOJjaY9HFT2oESDHlnXAnw8NN4gXC.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Potato Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t4.ftcdn.net/jpg/05/55/32/45/240_F_555324519_kTCHwzvWCCex1kA89g2wCqS8ddHzVo0F.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Sambar</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://t3.ftcdn.net/jpg/00/58/76/24/240_F_58762488_4rkAYpgzyi9MaP7dQApX4XIAR5qng3qa.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Beens Curry</h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://tastedrecipes.com/wp-content/uploads/2021/11/paneer-butter-masala-3.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Panneer </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://assets.bonappetit.com/photos/5f9aeca89108637794013cab/8:5/w_4864,h_3040,c_limit/HLY_Tomato_Curry-1120-Family-Meal6208.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Tomoto </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://assets.bonappetit.com/photos/5f9aeca89108637794013cab/8:5/w_4864,h_3040,c_limit/HLY_Tomato_Curry-1120-Family-Meal6208.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Tomoto </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://assets.bonappetit.com/photos/5f9aeca89108637794013cab/8:5/w_4864,h_3040,c_limit/HLY_Tomato_Curry-1120-Family-Meal6208.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Tomoto </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+
+                <div class="col-12 col-md-3 curry-container pb-2 pt-2 text-center">
+                    <img src="https://assets.bonappetit.com/photos/5f9aeca89108637794013cab/8:5/w_4864,h_3040,c_limit/HLY_Tomato_Curry-1120-Family-Meal6208.jpg" class="item-secton-image" />
+                    <h1 class="item-secton-heading mt-3">Tomoto </h1>
+                    <button class="btn btn-primary order-button" onclick="display('sectionSucces')">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSucces">
+        <div class="success-container text-center p-5 ">
+            <img src="https://thumbs.dreamstime.com/b/confirmation-approval-order-operation-payment-successful-completion-girl-confirms-business-success-man-hand-shows-class-239104068.jpg" class="success-image ml-3">
+            <div class="text-center ">
+                <h1 class="success-heading">Your Order is Successful</h1>
+                <button class="btn btn-primary success-button" onclick="display('sectionVegeCurry')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+
+</html>
